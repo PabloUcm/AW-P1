@@ -57,9 +57,10 @@ main {
 }
 
 #ring {
-  background-image: url("../img/ring2.png");
-  background-repeat: repeat;
-  width: 8.5%;
+  background-image: url("../img/ring3.png");
+  background-repeat: repeat-y;
+  float: right;
+  width: 7%;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
 }
 
