@@ -3,9 +3,12 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  /* background-image: url("../img/black.jpg");
+  background-size: cover; */
+  background-color: grey;
 }
 header {
-  background-color: aqua;
+  background-color: #2980b9;
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -43,14 +46,60 @@ main {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-top: 15%;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
 }
+
+/* main::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
 
 #task-list {
   margin: 0px;
   padding: 0px;
+  width: 40%;
+  list-style: none;
+  background-color: white;
+
+  padding: 15px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-li {
+#task-list > li {
+  margin-bottom: 20px;
+  padding: 25px;
   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #aed6f1;
+}
+
+.tag-list {
+  list-style: none;
+  border: none;
+  padding: 0px;
+}
+
+.tag-list li {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 10px;
+  background-color: #1a5276;
+}
+
+#new-task {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 0%;
 }
