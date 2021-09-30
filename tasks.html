@@ -24,26 +24,44 @@
       </div>
     </header>
     <main>
-      <ul id="task-list">
-        <li>
-          <div class="task-info">
-            <h3>Tareita 1</h3>
-            <ul class="tag-list">
-              <li>Tag 1</li>
-              <li>Tag 2</li>
-            </ul>
-          </div>
-          <button class="task-button">Completar tarea</button>
-        </li>
-        <li>Tareita 1</li>
-        <li>Tareita 1</li>
-        <li>Tareita 1</li>
-      </ul>
-      <div id="new-task">
-        <input type="text" />
-        <button>Añadir tarea</button>
+      <div id="task-section">
+        <div id="ring"></div>
+        <ul id="task-list">
+          <li>
+            <div class="task-info">
+              <h3>Tareita 1</h3>
+              <ul class="tag-list">
+                <li>Tag 1</li>
+                <li>Tag 2</li>
+              </ul>
+            </div>
+            <button class="task-button">Completar tarea</button>
+          </li>
+          <li>Tareita 1</li>
+          <li>Tareita 1</li>
+          <li>Tareita 1</li>
+          <li>Tareita 1</li>
+        </ul>
       </div>
-      <button id="delete-task-button">Eliminar tareas completadas</button>
+      <div id="new-task">
+        <div id="posit-section">
+          <div id="posit">
+            <img width="350px" heigth="350px" src="img/posit.png" />
+            <div id="posit-text">Práctica 1 - AW</div>
+          </div>
+        </div>
+        <div id="new-posit-section">
+          <textarea
+            cols="25"
+            rows="3"
+            placeholder="Nueva Tarea"
+            maxlength="60"
+          ></textarea>
+          <div id="test">
+            <div>+</div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
