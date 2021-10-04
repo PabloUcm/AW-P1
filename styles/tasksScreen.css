@@ -27,6 +27,7 @@ header {
 
 #main-title {
   margin-left: 5%;
+  text-transform: uppercase;
 }
 
 #user {
@@ -107,13 +108,21 @@ main {
 
 .task-finished-info {
   width: 60%;
-  text-decoration:line-through;
-  overflow-wrap: break-word; 
 }
 
 .task-pending-info {
   width: 60%;
+}
+
+.task-name {
+  text-transform: uppercase;
   overflow-wrap: break-word; 
+}
+
+.task-name-finished {
+  text-transform: uppercase;
+  overflow-wrap: break-word; 
+  text-decoration:line-through;
 }
 
 .task-button {
@@ -144,6 +153,7 @@ main {
   border-radius: 15px;
   padding: 5px 10px;
   background-color: #1a5276;
+  text-transform: uppercase;
 }
 
 #new-task {

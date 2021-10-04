@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <title>Gestor de tareas</title>
     <link rel="icon" href="img/favicon.ico" type="image/ico" />
-    <link rel="stylesheet" type="text/css" href="styles/tasksScreen.css" />
+    <link rel="stylesheet" type="text/css" media ="screen" href="styles/tasksScreen.css" />
+    <link rel="stylesheet" media="print" href="styles/tasksPrint.css" />
   </head>
   <body>
     <header>
-      <h1 id="main-title">TAREAS</h1>
+      <h1 id="main-title">Tareas</h1>
       <div id="user">
         <img
           id="user-img"
@@ -29,19 +30,19 @@
         <ul id="task-list">
           <li class="task-pending">
             <div class="task-pending-info">
-              <h3>PREPARAR PRACTICA AW</h3>
+              <h3 class="task-name">Preparar practica AW</h3>
               <ul class="tag-list">
                 <li>AW</li>
-                <li>PRACTICA</li>
+                <li>Practica</li>
               </ul>
             </div>
             <button class="task-button"></button>
           </li>
           <li class="task-finished">
             <div class="task-finished-info">
-              <h3>MIRAR FECHAS CONGRESO</h3>
+              <h3 class="task-name-finished">Mirar fechas congreso</h3>
             </div>
-            <img id="taskfinished-img"
+            <img class="taskfinished-img"
               alt="Tarea completada"
               width="110px"
               heigth="90px"
@@ -49,19 +50,19 @@
             />
           </li>
           <li class="task-pending">
-            <div class="task-info">
-              <h3> IR AL SUPERMERCADO</h3>
+            <div class="task-pending-info">
+              <h3 class="task-name"> Ir al supermercado</h3>
               <ul class="tag-list">
-                <li>PERSONAL</li>
+                <li>Personal</li>
               </ul>
             </div>
             <button class="task-button"></button>
           </li>
           <li class="task-pending">
-            <div class="task-info">
-              <h3>MUDANZA</h3>
+            <div class="task-pending-info">
+              <h3 class="task-name">Mudanza</h3>
               <ul class="tag-list">
-                <li>PERSONAL</li>
+                <li>Personal</li>
               </ul>
             </div>
             <button class="task-button"></button>
