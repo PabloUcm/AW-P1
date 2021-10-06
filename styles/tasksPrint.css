@@ -1,52 +1,59 @@
 * {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-  }
+  font-family: "Helvetica", "Arial", sans-serif;
+}
 
 #main-title {
-    font-size: 18px;
-    font-weight: normal;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 #user {
-    display: none;
+  display: none;
 }
 
 #task-list {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+.task-pending-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .task-name:after {
-    content: ":";
+  content: ":";
 }
 
 .task-finished-info {
-    text-decoration:line-through;
+  text-decoration: line-through;
 }
 
 .taskfinished-img {
-    display: none;
+  display: none;
 }
 
 .tag-list {
-    list-style: none;
+  list-style: none;
+  padding: 5px;
 }
 
 .tag-list li {
-    display: inline;
+  display: inline;
 }
 
 .tag-list li:before {
-    content:"("
+  content: "(";
 }
 
 .tag-list li:after {
-    content:")"
+  content: ")";
 }
 
 .task-button {
-    display: none;
+  display: none;
 }
 
 #new-task {
-    display: none;
+  display: none;
 }
